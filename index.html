@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/styles.css" />
-    
+
     <!--Windsong Google Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,9 +23,111 @@
 </head>
 
 <body>
-    <div class="test-font">Hello</div>
-    <div>no font here</div>
+    <header class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Bree's</h1>
+                    <h1>Overseas</h1>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#BreesOverseasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="BreesOverseasNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link" href="#"></i> Home</a>
+                        </li> 
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="plan.html">Plan</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row" id="aboutBree">
+            <div class="col-6">
+                <h2>About Bree</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque convallis metus sit amet nisi
+                    ullamcorper, in congue velit consectetur. Curabitur cursus placerat lorem ut sagittis. Lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit. Donec eleifend eget velit et finibus. Morbi sit amet
+                    commodo mi, bibendum finibus dolor. Orci varius natoque.</p>
+            </div>
+            <div class="col-6">
+                <img class="img-thumbnail" src="img/RotnestIsland.jpg" alt="rotnest island" />
+            </div>
+        </div>
+
+        <div class="row" id="destinations">
+            <div class="col">
+                <img class="img-thumbnail" src="img/antarctica.jpg" alt="antarctica" />
+            </div>
+            <div class="col-6">
+                <h2>Destinations</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla suscipit elit at placerat.
+                    Nulla
+                    at tempor dolor, vitae sodales massa. Quisque eu lacus molestie magna pellentesque cursus. Quisque
+                    rutrum ultrices nulla. In suscipit facilisis mauris, vel fermentum nisi viverra a. Fusce interdum
+                    lacus
+                    mauris, id blandit neque accumsan et. Suspendisse in convallis mauris. Integer eleifend eu sapien
+                    eget
+                    aliquet.
+                </p>
+            </div>
+        </div>
+
+        <div class="row" id="plan">
+            <div class="col-6">
+                <h2>Do You Have A Trip To Plan?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla suscipit elit at placerat.
+                    Nulla at tempor dolor, vitae sodales massa. Quisque eu lacus molestie magna pellentesque cursus.
+                    Quisque
+                    rutrum ultrices nulla. In suscipit facilisis mauris, vel fermentum nisi viverra a. Fusce interdum
+                    lacus
+                    mauris, id blandit neque accumsan et. Suspendisse in convallis mauris. Integer eleifend eu sapien
+                    eget aliquet.
+                </p>
+            </div>
+            <div class="col">
+                <img class="img-thumbnail d-flex mb-5" src="img/nepal.jpg" alt="nepal" />
+            </div>
+        </div>
+
+    </div>
+
+
     <footer>
+        <div class="containter">
+            <div class="row">
+                <div class="col-3 text-center pt-2">
+                    <ul class="list-unstyled text-white">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Destinations</a></li>
+                        <li><a href="#">Plan</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 text-center text-white pt-5">
+                    Copyright © 2021
+                </div>
+                <div class="col-3 text-center text-white pt-4">
+                    <h6>Connect With Me:</h6>
+                    <a role="button" class="btn btn-link text-white btn-lg" href="breannecsullivan@gmail.com"><i
+                            class="fa fa-envelope-o"></i></a>
+                    <a role="button" class="btn btn-link text-white btn-lg" href="tel:+13025409207"><i
+                            class="fa fa-phone"></i>
+                        <a class="btn btn-social-icon btn-facebook text-white btn-lg" href="http://facebook.com/"><i
+                                class="fa fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
 
     </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->

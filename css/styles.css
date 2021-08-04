@@ -1,3 +1,54 @@
 .test-font { 
   color: pink;
   font-family: "WindSong", cursive; }
+
+  .jumbotron {
+    background-color: #967422;
+  }
+
+  footer {
+    background-color: #967422;
+    color: white;
+  }
+
+  h1 {
+    color: white;
+  }
+
+  li, a {
+    color: white;
+  }
+
+#aboutBree {
+  color: #967422;
+  margin-top: 50px;
+}
+
+#plan {
+  color: #967422;
+  margin-bottom: 50px;
+
+}
+
+#destinations {
+  background-color: #967422;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#destinationsPhotos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#myExplorations {
+  color: #967422;
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+ 
+#destinationsPhotos {
+  background-color: #967422;
+  color: white;
+}
