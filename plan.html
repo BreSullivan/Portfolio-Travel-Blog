@@ -21,7 +21,7 @@
         <link href="https://fonts.googleapis.com/css2?family=WindSong&display=swap" rel="stylesheet">
 
 
-        <title></title>
+        <title>Bree's Overseas</title>
     </head>
 
 <body>
@@ -29,36 +29,43 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>Bree's</h1>
-                    <h1>Overseas</h1>
+                    <h1 class="titleFont blogTitle">Bree's</h1>
+                    <h1 class="titleFont blogTitle">Overseas</h1>
+                </div>
+                <div class="col align-self-center titleFont">
+                    <nav class="navbar navbar-expand-sm ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#BreesOverseasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse " id="breesOverseasNavbar">
+                            <ul class="navbar-nav ml-auto justify-content-center align-items-center text-center">
+                                <li class="nav-item active pr-5"><a class="nav-link" href="index.html"></i> Home</a>
+                                </li>
+                                <li class="nav-item pr-5"><a class="nav-link" href="about.html">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
+                                <li class="nav-item pl-5"><a class="nav-link" href="#">Plan</a></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-sm">
-            <div class="container">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#BreesOverseasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="BreesOverseasNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link" href="index.html"></i> Home</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="destinations.html">Destinations</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Plan</a></li>
-                    </ul>
-                </div>
 
-            </div>
-        </nav>
     </header>
-    <div class="container">
+    <div class="container" id="planTrip">
         <div class="row">
             <div class="col-12 text-center">
-                <h2>Let Me Plan Your Trip</h2>
+                <h2 id="planHeader">Let Me Plan Your Trip</h2>
             </div>
         </div>
         <div class="row">
+            <div class="col text-center">
+                <img class="img-thumbnail travPhoto" src="img/TravelPhoto.jpeg" alt="travel photo" />
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center text-center">
             <div class="col-6">
                 <h3>How It Works</h3>
             </div>
@@ -74,19 +81,65 @@
         </div>
     </div>
 
-    
+    <div class="container" id="getStartedForm">
+        <div class="card mb-5">
+            <div class="col-12 text-center">
+                <h2>Let's Get Started</h2>
+            </div>
+        </div>
+        <div class="col-12 mb-5">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="name">
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="email">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-6">
+                        <label for="phone">Phone</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="phone">
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="home">Where Are You Travelling From?</label>
+                        <input type="text" class="form-control" id="home" placeholder="travelling from">
+                    </div>
+                </div>
+                <div class="form-row ">
+                    <div class="form-group col-6">
+                        <label for="destination">Desired Travel Destination(s)</label>
+                        <input type="text" class="form-control" id="destination" placeholder="destination(s)">
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="dates">Desired Travel Dates</label>
+                        <input type="date" class="form-control" id="dates" placeholder="dates">
+                    </div>
+                </div>
+                <div class="form-row text-center">
+                    <div class="col">
+                        <button type="submit" class="btn submit-button">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
 
 
 
 
-    <footer>
+    <footer class="site-footer">
         <div class="containter">
             <div class="row">
                 <div class="col-3 text-center pt-2">
                     <ul class="list-unstyled text-white">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Destinations</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="destinations.html">Destinations</a></li>
                         <li><a href="#">Plan</a></li>
                     </ul>
                 </div>
@@ -95,7 +148,7 @@
                 </div>
                 <div class="col-3 text-center text-white pt-4">
                     <h6>Connect With Me:</h6>
-                    <a role="button" class="btn btn-link text-white btn-lg" href="breannecsullivan@gmail.com"><i
+                    <a role="button" class="btn btn-link text-white btn-lg" href="mailto:breannecsullivan@gmail.com"><i
                             class="fa fa-envelope-o"></i></a>
                     <a role="button" class="btn btn-link text-white btn-lg" href="tel:+13025409207"><i
                             class="fa fa-phone"></i>
@@ -104,6 +157,8 @@
                 </div>
             </div>
         </div>
+
+
 
     </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->

@@ -1,5 +1,4 @@
-.test-font { 
-  color: pink;
+.titleFont { 
   font-family: "WindSong", cursive; }
 
   .jumbotron {
@@ -37,13 +36,18 @@
   margin-bottom: 50px;
 }
 
-#destinationsPhotos {
-  margin-top: 50px;
-  margin-bottom: 50px;
+#explorations {
+  background-color: #967422;
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 150px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 #myExplorations {
-  color: #967422;
+  color: white;
   margin-top:50px;
   margin-bottom: 50px;
 }
@@ -51,4 +55,59 @@
 #destinationsPhotos {
   background-color: #967422;
   color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#comment {
+  color: #967422;
+}
+
+#about {
+  color: #967422;
+
+}
+
+#getStartedForm {
+  margin-top: 100px;
+  color: #967422;
+}
+
+.destinationPhotos {
+  height: 407.5px;
+  width: 540px;
+}
+
+#planTrip {
+  color: #967422;
+}
+
+#planHeader {
+  margin-bottom: 70px;
+  margin-top: 30px;
+}
+
+#favPlaces {
+  margin-top: 150px;
+}
+
+#carouselAbout {
+  margin-bottom: 100px;
+}
+
+.blogTitle {
+  font-size: 60px;
+}
+
+#breesOverseasNavbar {
+  font-size: 30px;
+}
+
+.submit-button {
+  background-color: #967422;
+  color: white;
+}
+
+.travPhoto {
+  margin-bottom: 100px;
 }
